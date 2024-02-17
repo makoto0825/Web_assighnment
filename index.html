@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <style>
+        body{
+            margin: 0 auto;
+            background-color: rgb(240, 252, 251);
+            font-family: 'Cute Font', cursive;
+        }
+        header{
+            padding:40px;
+            display:flex ;
+            justify-content:space-between;
+            align-items: center;
+        }
+        h3{
+            text-align: center; 
+            margin-top: 100px;
+            font-size: 30px;
+        }
+        ul{
+            display: flex; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+            padding-left:0; 
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            font-size: 40px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        form {
+            width: 50%;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 30px;
+        }
+
+        textarea{
+            height: 400px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+
+        button {
+            padding: 30px 50px;
+            font-size: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .travel_li{
+            width: 40%; 
+            height: 500px;
+        }
+        .travel_img{
+            width: 100%; height: 100%;
+        }
+        .blue_div{
+            margin-top: 20px; 
+            padding:20px;  
+            text-align: center; 
+            font-size: 40px; color:white; 
+            font-weight: bold; font-family: 'Cute Font', cursive; 
+            background: #b0eef9;
+        }
+        #about{
+            margin-right: 60px; 
+            font-size: 20px;
+        }
+        #main_img{
+            width:100%
+        }
+        #form_div{
+            text-align: center; 
+            margin: 100px;
+        }
+        #mydream{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="introduction.png" alt="" style="width: 300px;">
+        <ul style="display: flex; list-style: none;">
+            <li id="about"><a href="about.html" target="_blank">About</a></li>
+            <li id="mydream"><a href="Mydream.html">My dream</a></li>
+        </ul>
+    </header>
+    <section>
+        <div><img id="main_img" src="img3.png" alt=""></div>
+    </section>
+    <section>
+        <div class="blue_div" >My hobby</div>
+        <h3>-I like traveling. I have been many countries-</h3>
+        <div>
+            <ul>
+                <li class="travel_li">
+                    <img class ="travel_img" src="tarve1.png" alt="" style="object-fit: cover; object-position: top;">
+                </li>
+                <li class="travel_li">
+                    <img class ="travel_img" src="tarve2.png" alt="" >
+                </li>
+                <li class="travel_li">
+                    <img class ="travel_img" src="tarve3.png" alt="" style="object-fit: cover;">
+                </li>
+                <li class="travel_li">
+                    <img class ="travel_img" src="tarve4.png" alt="" style="object-fit: cover;">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="blue_div">Contact me</div>
+        <div id="form_div">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section> 
+</body>
+</html>
