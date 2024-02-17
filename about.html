@@ -1,160 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about</title>
+    <link rel="stylesheet" href="main.css" />
     <style>
-        body{
-            background: #f2f2f2;
-            font-size: 20px;
-        }
-        table {
-            width: 80%;
-            border-collapse: collapse;
-            margin: 20px auto;
-        }
-        th, td {
-            border: 1px solid #b5b5b5;
-            background: white;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: coral;
-            color: white;
-        }
-        ul{
-            list-style: none;
-        }
-        li{
-            display: flex;
-        }
-        img{
-            width: 400px; 
-            height: 400px; 
-            border-radius: 10%;
-        }
-        h3{
-            font-size: 40px;
-            margin-top:0;
-        }
-        p{
-            width: 800px; 
-            line-height: 35px;
-        }
-        a{
-            text-decoration: none;
-        }
-        footer div{
-            font-size: 30px;
-        }
-        footer a{
-            color: blue;
-        }
-        .blue_div{
-            margin-top: 20px; 
-            padding:20px;  
-            text-align: center; 
-            font-size: 40px; color:white; 
-            font-weight: bold; font-family: 'Cute Font', cursive; 
-            background: #b0eef9;
-        }
-        .div_exp{
-            color: white; 
-            background: coral;
-            width: 200px; 
-            padding: 20px 60px; 
-            text-align: center; 
-            border-radius: 10px;
-        }
-        .a_find{
-            text-decoration: none;
-            color: white;
-        }
-        #table_div{
-            margin: 200px auto;
-        }
-        #portfolio_div{
-            padding: 100px 200px;
-            background: #f2f2f2; 
-        }
+      table {
+        width: 80%;
+        border-collapse: collapse;
+        margin: 20px auto;
+      }
+      th,
+      td {
+        border: 1px solid #b5b5b5;
+        background: white;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: coral;
+        color: white;
+      }
+      li {
+        display: flex;
+      }
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 10%;
+      }
+
+      p {
+        width: 800px;
+        line-height: 35px;
+      }
+      .a_find {
+        text-decoration: none;
+        color: white;
+      }
+      #table_div {
+        margin: 200px auto;
+      }
+      #portfolio_div {
+        padding: 100px 200px;
+        background: #f2f2f2;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <section>
-        <div class="blue_div">About My History</div>
-        <div id="table_div" >
-            <table>
-                <tr>
-                    <th>Year</th>
-                    <th>Position</th>
-                    <th>content</th>
-                    <th>Company/Organization</th>
-                    <th>Country</th>
-                </tr>
-                <tr>
-                    <td>2024 - Present</td>
-                    <td>Diploma Student</td>
-                    <td>Computer Programming</td>
-                    <td>Humber college</td>
-                    <td>Canada</td>
-                </tr>
-                <tr>
-                    <td>2022 - 2023</td>
-                    <td>Master student</td>
-                    <td>Artificial intelligence</td>
-                    <td>Asia Pacific University</td>
-                    <td>Malaysia</td>
-                </tr>
-                <tr>
-                    <td>2016 - 2021</td>
-                    <td>Software engineer</td>
-                    <td>Developing Accounting System</td>
-                    <td>NTT Data Engineering Systems</td>
-                    <td>Japan</td>
-                </tr>
-                <tr>
-                    <td>2012 - 2016</td>
-                    <td>University Student</td>
-                    <td>Economics</td>
-                    <td>Seijo University</td>
-                    <td>Japan</td>
-                </tr>
-            </table>
-        </div>
+      <div class="blue_div">About My History</div>
+      <div id="table_div">
+        <table>
+          <tr>
+            <th>Year</th>
+            <th>Position</th>
+            <th>content</th>
+            <th>Company/Organization</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+            <td>2024 - Present</td>
+            <td>Diploma Student</td>
+            <td>Computer Programming</td>
+            <td>Humber college</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>2022 - 2023</td>
+            <td>Master student</td>
+            <td>Artificial intelligence</td>
+            <td>Asia Pacific University</td>
+            <td>Malaysia</td>
+          </tr>
+          <tr>
+            <td>2016 - 2021</td>
+            <td>Software engineer</td>
+            <td>Developing Accounting System</td>
+            <td>NTT Data Engineering Systems</td>
+            <td>Japan</td>
+          </tr>
+          <tr>
+            <td>2012 - 2016</td>
+            <td>University Student</td>
+            <td>Economics</td>
+            <td>Seijo University</td>
+            <td>Japan</td>
+          </tr>
+        </table>
+      </div>
     </section>
-    <section >
-        <div class="blue_div">My Portfolio</div>    
-        <div id="portfolio_div">
-            <ul>
-                <li>
-                    <img src="project1.png" alt="">
-                    <div style="margin-left: 100px;">
-                        <h3>Image retrieval system</h3>
-                        <p>The mechanism of Image_retrieval operates as follows: First, the characteristic features of the search target are obtained in advance and stored in a database. 
-                             When a user performs a search using a query image, the features of the query image are also extracted. 
-                            Then, the extracted features of the query image is compared with the features stored in the database for each image, and the images with high similarity are ranked. 
-                            Finally, the top-ranked images are presented to the user.In this project, I used the fashion items' datasets.
-                        </p>
-                        <div class="div_exp"><a class="a_find" href="https://github.com/makoto0825/image_retrieval">Find out more</a></div>
-                    </div>
-                </li>
-                <li style="margin-top: 100px;" >
-                    <img src="project2.png" alt="">
-                    <div style="margin-left: 100px;">
-                        <h3>Anime Images Generation by DCGAN</h3>
-                        <p>Gan is one of the techniques commonly used in the field of image processing. It is used in various domains such as image generation, image transformation, video generation, and more. In this project, I tried to generate anime face images by using this method.
-                        </p>
-                        <div class="div_exp"><a class="a_find" href="https://github.com/makoto0825/Image-Generation-by-DCGAN" >Find out more</a></div>
-                    </div>
-                </li>
-            </ul>
-        </div>    
+    <section>
+      <div class="blue_div">My Portfolio</div>
+      <div id="portfolio_div">
+        <ul>
+          <li>
+            <img src="project1.png" alt="" />
+            <div style="margin-left: 100px">
+              <h3>Image retrieval system</h3>
+              <p>
+                The mechanism of Image_retrieval operates as follows: First, the
+                characteristic features of the search target are obtained in
+                advance and stored in a database. When a user performs a search
+                using a query image, the features of the query image are also
+                extracted. Then, the extracted features of the query image is
+                compared with the features stored in the database for each
+                image, and the images with high similarity are ranked. Finally,
+                the top-ranked images are presented to the user.In this project,
+                I used the fashion items' datasets.
+              </p>
+              <div class="div_exp">
+                <a
+                  class="a_find"
+                  href="https://github.com/makoto0825/image_retrieval"
+                  >Find out more</a
+                >
+              </div>
+            </div>
+          </li>
+          <li style="margin-top: 100px">
+            <img src="project2.png" alt="" />
+            <div style="margin-left: 100px">
+              <h3>Anime Images Generation by DCGAN</h3>
+              <p>
+                Gan is one of the techniques commonly used in the field of image
+                processing. It is used in various domains such as image
+                generation, image transformation, video generation, and more. In
+                this project, I tried to generate anime face images by using
+                this method.
+              </p>
+              <div class="div_exp">
+                <a
+                  class="a_find"
+                  href="https://github.com/makoto0825/Image-Generation-by-DCGAN"
+                  >Find out more</a
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <footer>
-        <div><a href="index.html">Go Back to the main page</a></div>
+      <div><a href="index.html">Go Back to the main page</a></div>
     </footer>
-    
-</body>
+  </body>
 </html>

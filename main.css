@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(240, 252, 251);
+  font-family: "Cute Font", cursive;
+}
+.blue_div {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: "Cute Font", cursive;
+  background: #b0eef9;
+}
+h3 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.div_exp {
+  color: white;
+  background: coral;
+  width: 200px;
+  padding: 20px 60px;
+  text-align: center;
+  border-radius: 10px;
+}
+ul {
+  list-style: none;
+}
+footer div {
+  font-size: 30px;
+}
+footer a {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  font-size: 40px;
+}
